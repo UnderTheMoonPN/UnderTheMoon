@@ -1,0 +1,13 @@
+.galleryContainer{
+   background-color: red;
+}
+
+.galleri{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 1rem;
+    img{
+        width: 100%;
+    }
+}
+
