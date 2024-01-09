@@ -6,6 +6,7 @@
 }
 
 .follow{
+    margin-top: 5%;
     font-family: 'Gilda Display', serif;
     text-transform: uppercase;
     text-decoration: underline;
@@ -13,6 +14,7 @@
 }
 
 .galleri{
+    margin-top: 3%;
     display: grid;
     grid-template-columns: repeat(4, 3fr);
     gap: 1rem;
