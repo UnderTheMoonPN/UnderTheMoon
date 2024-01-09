@@ -1,16 +1,23 @@
 import { useState } from 'react'
 import { ContentWrapper } from './components/ContentWrapper/ContentWrapper.jsx'
+import { Navbar } from './components/NavBar/NavBar.jsx'
 
-import './App.css'
+import './App.scss'
+
+const NavArr = [
+  'Hjem',
+  'Koncepter',
+  'utm loyalty',
+  'om',
+  'kontakt'
+]
 
 function App() {
   
 
   return (
     <>
-      <div>
-      <ContentWrapper title='Skrrt'></ContentWrapper>
-      </div>
+      <Navbar data= {NavArr}></Navbar>
     </>
   )
 }
