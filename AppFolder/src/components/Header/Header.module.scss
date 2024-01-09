@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.headerWrapper {
+    top: 0;
+    position: relative;
+    border: 1px solid black;
+    h1 {
+        color: #FFF;
+        text-shadow: 8px 4px 7px rgba(0, 0, 0, 0.25);
+        font-size: 128px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: white;
+        font-family: 'Gilda Display', serif;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        text-align: center;
+        width: 100%;
+    }
+    .hImg {
+        width: 100%;
+    }
+    .frame {
+        font-family: 'Gilda Display', serif;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 4px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        p {
+            max-width: 600px;
+        }
+    }
+}
