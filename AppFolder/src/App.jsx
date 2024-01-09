@@ -4,6 +4,8 @@ import { Navbar } from './components/NavBar/NavBar.jsx'
 import './App.scss'
 import { Header } from './components/Header/Header.jsx'
 import { Gallery } from './components/Gallery/Gallery.jsx'
+import {Main } from './components/Main/Main.jsx'
+import { Footer } from './components/Footer/footer.jsx'
 
 
 
@@ -40,6 +42,7 @@ function App() {
       <Header></Header>
       <Main></Main>
       <Gallery pictures={GalleryArr}></Gallery>
+      <Footer></Footer>
     </>
   )
 }
