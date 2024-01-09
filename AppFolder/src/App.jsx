@@ -17,9 +17,8 @@ function App() {
 
   return (
     <>
-      <div>
-      <ContentWrapper title='Skrrt'></ContentWrapper>
-      </div>
+      <Navbar data= {NavArr}></Navbar>
+      <Header></Header>
     </>
   )
 }
