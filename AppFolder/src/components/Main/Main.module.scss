@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+.newStyle {
+    margin-top: 5%;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.newStyleP {
+    margin-top: 3%;
+    max-width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.readMore {
+    width: 137.197px;
+    height: 40.824px;
+    flex-shrink: 0;
+    border: 1px solid #1F1F1F;
+    background: #FFF;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.imgWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 4%;
+    margin: auto;
+    
+}
+
+.imgOne {
+    background-image: url(../../assets/Images/Frame-img-1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 615px;
+    height: 327px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.imgTwo {
+    background-image: url(../../assets/Images/Frame-img-2.png);
+    width: 100%;
+    width: 615px;
+    height: 327px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.imgText {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 2rem;
+    font-family: 'Gilda Display', serif;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 9%;
+    color: white;
+    text-align: center;
+}
